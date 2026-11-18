@@ -51,15 +51,15 @@
         gap: 36px;
       }
 
-      a{
+      .menu a{
         font-weight: 600;
         text-decoration:none ;
         padding-bottom: 4px solid transparent;
       }
-      a:hover {
+      .menu a.hover {
         border-bottom-color: var(--tinta);
       }
-      a:hover(
+      .menu a.atual(
         border-bottom color: var(--fita);
       )
 
